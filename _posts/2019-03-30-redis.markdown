@@ -6,11 +6,11 @@ tags: Other
 author: supernova
 description: 慢查询、pipline、发布订阅、bitmap、hyperloglog、geo .
 ---
-##慢查询
+## 慢查询
 * 慢查询发生在命令执行阶段
 * 客户端超时不一定慢查询，但慢查询是客户端超时的一个可能
 * 配置
-    * slowlog-max-len
+* slowlog-max-len
 ## pipeline
 * 作用  
     将多次操作打包成一次请求，从而节约网络请求的时间。
