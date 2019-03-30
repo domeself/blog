@@ -10,7 +10,6 @@ description: 慢查询、pipline、发布订阅、bitmap、hyperloglog、geo .
 * 慢查询发生在命令执行阶段
 * 客户端超时不一定慢查询，但慢查询是客户端超时的一个可能
 * 配置
-* slowlog-max-len
 ## pipeline
 * 作用  
     将多次操作打包成一次请求，从而节约网络请求的时间。
@@ -23,4 +22,9 @@ description: 慢查询、pipline、发布订阅、bitmap、hyperloglog、geo .
     不支持集群模式
 * pipeline一次请求的数量不能过大  
    对网络和和客户端的等待时间，造成影响
+## 发布订阅
+* 角色
+    * 发布者(publisher)
+    * 订阅者(subscriber)
+    * 频道(channel)
    
