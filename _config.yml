@@ -4,13 +4,13 @@ name: qqqqqqqqq
 description: wwwwwwwwwwww
 
 # url is currently only used only for the RSS feed in feed.xml
-url: 'https://domeself.github.io/'
+url: 'https://domeself.github.io/domeself/blog.github.io'
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''
-baseurl: ''
+baseurl: '/blog.github.io'
 ## default date_format
 date_format: 
   title: "%B-%-d-%Y"
